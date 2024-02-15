@@ -71,7 +71,7 @@ const TodoWrapper = () => {
 
   return (
     <div className="container py-5">
-      <h3 className="text-white text-center mb-3">My Todo</h3>
+      <h3 className="text-white text-center mb-5">My Todo</h3>
       <TodoForm addTodo={addTodo} />
       <div className="d-flex mt-5 justify-content-between">
         <h3 className="text-white">My Todos</h3>
